@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QrCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="editmycard">我的资料</string>
+    <string name="edit">编辑</string>
+    <string name="show">扫我的二维码</string>
+    <string name="addto">添加我到通讯录                                                                                              </string>
+    <string name="scan">scan</string>
+    <string name="shereto">Hi, friend! I got a excellent app named qrcard, Would you have I try?you can download here. </string>
+    <string name="title_activity_edit_card">Edit My Card</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_save_contact">Check</string>
+
+</resources>

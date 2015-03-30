@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/edit_card_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/booo"
+            android:textSize="16sp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eee"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:gravity="center|bottom"
+                android:text="Add me to your address list"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/brought_by"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:gravity="center|top"
+                android:text="Capture my qrcode"
+                android:textSize="14sp"
+                android:autoLink="web" />
+
+            <ImageView
+                android:id="@+id/qrcodepic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/graphic1"
+                android:scaleType="fitStart">
+
+            </ImageView>
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+
+
+</RelativeLayout>
